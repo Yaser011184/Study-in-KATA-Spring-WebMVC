@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8"/>
-    <title>Car</title>
+    <title>Cars</title>
     <style>table th, table td {
         padding: 5px;
     }</style>
@@ -21,7 +21,7 @@
     </tr>
     </thead>
     <tbody>
-    <tr th:each="car : ${list}">
+    <tr th:each="car : ${carList}">
         <td th:text="${car.brand}"/>
         <td th:text="${car.color}"/>
         <td th:text="${car.power}"/>
